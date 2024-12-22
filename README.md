@@ -1,3 +1,9 @@
+## TUGAS 1 KEAMANAN SIBER IF-46-04 [YHR] ( CAK3CAB3-IF-46-04)
+Anggota Kelompok : 
+- Gede Bagus Krishnanditya Merta - 1301223088 
+- Raka Aditya Waluya - 1301220192
+- Valentino Hartanto - 1301223020 
+
 Proyek ini adalah aplikasi web sederhana yang dibuat dengan Flask dan SQLite.
 
 ## Fitur
@@ -34,6 +40,12 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek ini s
    source .venv/bin/activate
    ```
 
+3. **Alternatif Aktifkan virtual environment**:
+   ```bash
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   .\.venv\Scripts\Activate
+
+
 4. **Instal dependensi**:
    ```bash
    pip install flask flask_sqlalchemy
@@ -53,3 +65,4 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek ini s
 ## Struktur Proyek
 - `app.py`: File utama aplikasi yang berisi logika backend Flask.
 - `templates/`: Folder untuk file HTML yang digunakan dalam aplikasi.
+
